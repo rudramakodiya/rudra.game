@@ -1,0 +1,30 @@
+body {
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+#game {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: 2px solid white;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+#word {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: lime;
+}
+
+input {
+  font-size: 18px;
+  padding: 5px;
+  width: 200px;
+}
